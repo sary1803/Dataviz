@@ -28,7 +28,7 @@ def main():
    
     @st.cache
     def load_csv():
-        df=pd.read_csv('full_2020.csv')
+        df=pd.read_csv('https://jtellier.fr/DataViz/full_2020.csv')
         return df
 
     #Dealing with null values 
